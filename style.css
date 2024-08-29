@@ -1,0 +1,428 @@
+  body {
+    background: rgb(182,146,194);
+    background: linear-gradient(90deg, rgba(182,146,194,1) 34%, rgba(227,165,199,1) 85%);
+    margin: 0px;
+  }
+
+  #menu-bar {
+    background-color: #694F8E;
+  }
+  
+   a.nav-link {
+    color: white;
+   }  
+
+   a.nav-link:hover {
+    color: gray;
+   }
+
+   #active {
+    background-color: white;
+    color: black;
+   }
+
+   #active:hover {
+    background-color: lightgray;
+   }
+
+   #title {
+    font-family: "Baskervville SC", serif;
+    color: white;
+   }
+
+   #footer {
+    background-color: #694F8E;
+    color: white;
+   }
+
+   #youtube {
+    aspect-ratio: 16/9; 
+    width: 90%;
+   }
+
+   #meet {
+    font-family: "Baskervville SC", serif;
+    letter-spacing: 2px;
+    color: white;
+   }
+
+    div > h1 {
+    font-family: "Baskervville SC", serif;
+    letter-spacing: 3px;
+    color: white;
+   }
+   
+    div > h2 {
+    font-family: "Baskervville SC", serif;
+    letter-spacing: 3px;
+    color: white;
+   }
+
+   #meviolin {
+    border-radius: 10%;
+   }
+
+   #intro-text {
+    color: #403F46;
+    text-align: justify;
+   }
+
+   p {
+    color: #403F46;
+   }
+
+   #home-photo {
+    height: 75vh;
+    background-image: url(aboveview.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
+
+   #about-header {
+    background-image: url(malviolin5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+   }
+
+   #about-title {
+    font-family: "Baskervville SC", serif;
+    letter-spacing: 2px;
+    color: white;
+   }
+
+   #hide {
+    display: none;
+   }
+
+   #photo-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #carouselExample {
+    width: 90%;
+   }
+
+   #display {
+    display: none;
+   }
+
+   #photo-title {
+    width: 90%;
+   }
+
+   #video-gallery {
+    width: 90%;
+   }
+
+   #video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   #video-title {
+    width: 90%;
+   }
+
+   #videogal-title {
+    font-family: "Baskervville SC", serif;
+    color: white;
+    letter-spacing: 3px;
+    align-self: start;
+   }
+   
+   #title-container {
+    width: 90%;
+   }
+
+   .grid-container {
+    height: 80vh;
+    width: 90vw;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+   }
+
+   #photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn;
+   }
+
+   .grid-item1 {
+    background-image: url(malviolincropped.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: span 3;
+   }
+
+   .grid-item2 {
+    background-image: url(malviolin2.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .grid-item3 {
+     background-image: url(malviolin3cropped.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     grid-row: span 3;
+   }
+
+   .grid-item4 {
+    background-image: url(violinoutside.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .grid-item5 {
+    background-image: url(malviolin4cropped.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .grid-item {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+   }
+
+   .mediagallery {
+    background: rgb(182,146,194);
+    background: linear-gradient(90deg, rgba(182,146,194,1) 34%, rgba(227,165,199,1) 85%);
+    padding-top: 50px;
+   }
+
+   #gallery-title {
+    font-family: "Baskervville SC", serif;
+    color: white;
+    letter-spacing: 3px;
+    align-self: start;
+   }
+
+   .contact-form {
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .contact-left {
+    display: flex;
+    flex-direction: column;
+   }
+
+   input[type="text"], #message {
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+   }
+
+   #contact-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+   }
+
+   #contact-button:hover {
+    background-color: lightgray;
+   }
+
+   #contact-button:focus {
+    background-color: #FFDFD6;
+   }
+
+   #mobile-menu {
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  #contact-info {
+    text-decoration: none;
+  }
+
+   @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+   }
+
+   @-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+   }
+
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  @-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+ }
+
+ #carousel-controls {
+  top: 50%;
+  bottom: 50%;
+ }
+
+@media (max-width: 970px) {
+  #photo-gallery {
+    display: none;
+  }
+
+  #display {
+    display: contents;
+  }
+
+  #title-container {
+    width: 100%;
+    text-align: left;
+    padding-left: 22px;
+  }
+
+  .carousel-inner {
+    animation: fadeIn 5s;
+  }
+
+  }
+
+  @media (max-width: 790px) {
+    .contact-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+
+    #flex-container {
+      align-self: center;
+      padding-right: 100px;
+    }
+    }
+
+
+   @media (max-width: 768px) {
+
+
+    #about-header {
+      height: 450px;
+    }
+
+    #hide {
+      display: contents;
+    }
+
+    #hide-mobile-icon {
+      display: none;
+    }
+
+    #mortarboard {
+      width: 12%;
+      padding-bottom: 5px;
+    }
+
+    #violin-icon-container {
+      align-self: flex-start;
+      padding-bottom: 5px;
+    }
+
+    #violin-icon {
+      width: 30%;
+    }
+
+    #stand-container {
+      align-self: flex-start;
+      padding-bottom: 5px;
+    }
+
+    #stand {
+      width: 35%;
+    }
+
+    #music-note-container {
+      align-self: flex-start;
+    }
+
+    #music-note {
+      width: 30%;
+    }
+   }
+
+   @media (max-width: 576px) {
+   #paragraph {
+    font-size: 1.1em;
+   }
+
+   #youtube {
+    width: 90%;
+  }
+
+  #intro {
+    width: 100%;
+  }
+
+  #mobile-menu {
+   display: inline;
+  }
+
+
+  #full-menu {
+    display: none;
+  }
+
+   }
+
+   @media (max-width: 460px) {
+    .contact-form {
+      margin: 0px;
+      padding-top: 50px;
+    }
+
+    input[type="text"], #message {
+    max-width: 300px;
+    min-width: 100px;
+   }
+
+   #flex-container {
+    padding: 0px;
+    align-self: center;
+    justify-self: center;
+   }
+
+   #contact-details {
+    font-size: 18pt;
+   }
+
+  #contact-button {
+    font-size: 1rem;
+  }
+   }
+    
+
+   @media (max-width: 386px) {
+    #about-title {
+      font-size: 1.25rem;
+    }
+    }
+   
