@@ -4,6 +4,12 @@
     margin: 0px;
   }
 
+  #result {
+    font-size: 2rem;
+    color: white;
+    font-family: "Baskervville SC", serif;
+  }
+
   #menu-bar {
     background-color: #694F8E;
   }

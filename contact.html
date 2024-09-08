@@ -45,18 +45,21 @@
 
 <div class="contact-form my-5 py-5">
   <div id="form-element" class="d-flex flex-column pb-5"> 
-   <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+   <form id="form" action="https://api.web3forms.com/submit" method="POST" class="contact-left">
     <div class="contact-title">
       <h1 class="fw-bold ps-4">Contact Form</h1>
     </div>
-    <input type="hidden" name="access_key" value="5de816cb-67e0-4078-9efd-bb5617f468eb">
+    <!-- <input type="hidden" name="access_key" value="5de816cb-67e0-4078-9efd-bb5617f468eb"> -->
     <input type="text" id="fname" name="firstname" required placeholder="Your first name..">
     <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
     <input type="text" id="email" name="email" required placeholder="Your email address...">
     <textarea id="message" name="message" required placeholder="Type your message.."></textarea>
-    <input class="w-25 align-self-center" id="contact-button" type="submit" value="Submit">
+    <button class="w-25 align-self-center" id="contact-button" type="submit">Submit</button>
   </form>
+  <p id="result"></p>
  </div>
+
+ 
 
  <div id="flex-container">
   <div class="contact-right d-flex flex-column">
@@ -108,5 +111,6 @@
      </div>
   </div>
 </body>
+<script src="./index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
