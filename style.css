@@ -4,6 +4,11 @@
     margin: 0px;
   }
 
+  .h-captcha {
+    border-radius: 50px;
+   
+  }
+
   #result {
     font-size: 2rem;
     color: white;
@@ -79,13 +84,13 @@
 
    #home-photo {
     height: 75vh;
-    background-image: url(aboveview.JPG);
+    background-image: url(assets/aboveview.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
    }
 
    #about-header {
-    background-image: url(malviolin5.jpg);
+    background-image: url(assets/malviolin5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
@@ -163,33 +168,33 @@
    }
 
    .grid-item1 {
-    background-image: url(malviolincropped.jpg);
+    background-image: url(assets/malviolincropped.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-row: span 3;
    }
 
    .grid-item2 {
-    background-image: url(malviolin2.JPEG);
+    background-image: url(assets/malviolin2.JPEG);
     background-size: cover;
     background-repeat: no-repeat;
    }
 
    .grid-item3 {
-     background-image: url(malviolin3cropped.jpg);
+     background-image: url(assets/malviolin3cropped.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      grid-row: span 3;
    }
 
    .grid-item4 {
-    background-image: url(violinoutside.JPEG);
+    background-image: url(assets/violinoutside.JPEG);
     background-size: cover;
     background-repeat: no-repeat;
    }
 
    .grid-item5 {
-    background-image: url(malviolin4cropped.jpg);
+    background-image: url(assets/malviolin4cropped.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    }
@@ -228,7 +233,7 @@
    }
 
    input[type="text"], #message {
-    margin: 20px;
+    margin: 20px 0px;
     padding: 10px;
     width: 400px;
     border-radius: 20px;
