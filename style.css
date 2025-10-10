@@ -1,6 +1,5 @@
   body {
-    background: rgb(182,146,194);
-    background: linear-gradient(90deg, rgba(182,146,194,1) 34%, rgba(227,165,199,1) 85%);
+    background: #E6D8C3 !important;
     margin: 0px;
   }
 
@@ -16,7 +15,7 @@
   }
 
   #menu-bar {
-    background-color: #694F8E;
+    background-color: #5D866C;
   }
   
    a.nav-link {
@@ -42,7 +41,7 @@
    }
 
    #footer {
-    background-color: #694F8E;
+    background-color: #5D866C;
     color: white;
    }
 
@@ -54,19 +53,19 @@
    #meet {
     font-family: "Baskervville SC", serif;
     letter-spacing: 2px;
-    color: white;
+    color: #6e5f51;
    }
 
     div > h1 {
     font-family: "Baskervville SC", serif;
     letter-spacing: 3px;
-    color: white;
+    color: #6e5f51;
    }
    
     div > h2 {
     font-family: "Baskervville SC", serif;
     letter-spacing: 3px;
-    color: white;
+    color: #6e5f51;
    }
 
    #meviolin {
@@ -74,12 +73,12 @@
    }
 
    #intro-text {
-    color: #403F46;
+    color: #6e5f51;
     text-align: justify;
    }
 
    p {
-    color: #403F46;
+    color: #6e5f51;
    }
 
    #home-photo {
@@ -99,7 +98,7 @@
    #about-title {
     font-family: "Baskervville SC", serif;
     letter-spacing: 2px;
-    color: white;
+    color: #6e5f51;
    }
 
    #hide {
@@ -142,7 +141,7 @@
 
    #videogal-title {
     font-family: "Baskervville SC", serif;
-    color: white;
+    color: #6e5f51;
     letter-spacing: 3px;
     align-self: start;
    }
@@ -208,14 +207,13 @@
    }
 
    .mediagallery {
-    background: rgb(182,146,194);
-    background: linear-gradient(90deg, rgba(182,146,194,1) 34%, rgba(227,165,199,1) 85%);
+    background:#E6D8C3;
     padding-top: 50px;
    }
 
    #gallery-title {
     font-family: "Baskervville SC", serif;
-    color: white;
+    color: #6e5f51;
     letter-spacing: 3px;
     align-self: start;
    }
