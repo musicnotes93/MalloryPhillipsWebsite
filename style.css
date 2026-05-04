@@ -1,5 +1,5 @@
   body {
-    background: #E6D8C3 !important;
+    background: #FFFDF5 !important;
     margin: 0px;
   }
 
@@ -15,20 +15,51 @@
   }
 
   #menu-bar {
-    background-color: #5D866C;
+    background-color: #2C2C2C;
   }
   
+ /* Target the menu container specifically */
+#mobile-menu .dropdown-menu {
+  background-color: #FFFDF5 !important;
+  border: 1px solid #8E443D !important;
+}
+
+/* Target the links inside */
+#mobile-menu .dropdown-item {
+  color: #8E443D !important;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#mobile-menu button {
+  background-color: #FFFDF5;
+}
+
+/* Target the hover state */
+#mobile-menu .dropdown-item:hover {
+  background-color: #E6D8C3 !important;
+  color: #8E443D !important;
+}
+
+/* Optional: Fix the active state if a link is clicked */
+#mobile-menu .dropdown-item:active {
+  background-color: #8E443D !important;
+  color: #FFFDF5 !important;
+}
+
    a.nav-link {
-    color: white;
+    color: #FFFDF5;
    }  
 
    a.nav-link:hover {
     color: gray;
    }
 
+   .nav-item {
+    color: #FFFDF5;
+   }
    #active {
-    background-color: white;
-    color: black;
+    background-color: #5F7A61;
+    color: #FFFDF5;
    }
 
    #active:hover {
@@ -37,12 +68,12 @@
 
    #title {
     font-family: "Baskervville SC", serif;
-    color: white;
+    color: #FFFDF5;
    }
 
    #footer {
-    background-color: #5D866C;
-    color: white;
+    background-color: #2C2C2C;
+    color: #FFFDF5;
    }
 
    #youtube {
@@ -52,20 +83,19 @@
 
    #meet {
     font-family: "Baskervville SC", serif;
-    letter-spacing: 2px;
-    color: #6e5f51;
+    color: #8E443D;
    }
 
     div > h1 {
     font-family: "Baskervville SC", serif;
     letter-spacing: 3px;
-    color: #6e5f51;
+    color: #8E443D;
    }
    
     div > h2 {
     font-family: "Baskervville SC", serif;
     letter-spacing: 3px;
-    color: #6e5f51;
+    color: #8E443D;
    }
 
    #meviolin {
@@ -73,16 +103,127 @@
    }
 
    #intro-text {
-    color: #6e5f51;
+    color: #8E443D;
     text-align: justify;
    }
 
    p {
-    color: #6e5f51;
+    color: #8E443D;
    }
 
+   /* The Main Action Button */
+#primary-cta {
+  background-color: #5F7A61; /* Sage Green */
+  color: #FFFDF5;
+  border-radius: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px solid #5F7A61;
+  transition: all 0.3s ease;
+}
+
+#primary-cta:hover {
+  background-color: #8E443D; /* Switches to your Violin Red on hover */
+  border-color: #8E443D;
+  color: #FFFDF5;
+}
+
+/* The "Soft" Action Button */
+#secondary-cta {
+  background-color: transparent;
+  color: #8E443D;
+  border: 2px solid #8E443D;
+  border-radius: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  transition: all 0.3s ease;
+}
+
+#secondary-cta:hover {
+  background-color: #8E443D;
+  color: #FFFDF5;
+}
+
+   #lessons-title {
+  font-family: "Baskervville SC", serif;
+  color: #8E443D;
+  letter-spacing: 2px;
+}
+
+/* Style the list items on the lessons page */
+.container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.container ul li::before {
+  content: "🎻 "; 
+  margin-right: 10px;
+}
+
+/* Style the policy boxes */
+.bg-light {
+  background-color: #FFFDF5 !important;
+  border-color: #8E443D !important;
+}
+
+#lessons-hero {
+  height: 75vh;
+  background-image: url('assets/teachingviolin.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-glass {
+  background: rgba(255, 253, 245, 0.8); /* 90% opaque Ivory */
+  border: 1px solid #8E443D;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#lessons-title {
+  color: #8E443D !important;
+}
+#lessons-paragraph {
+   color: #8E443D;
+}
+
+.lesson-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lesson-list li {
+  margin-bottom: 15px;
+  color: #8E443D;
+}
+
+.lesson-list li::before {
+  content: "🎻 "; 
+  margin-right: 10px;
+}
+
+/* FAQ spacing */
+.col h5 {
+  margin-bottom: 10px;
+  border-left: 3px solid #5F7A61; /* Sage green accent from earlier */
+  padding-left: 10px;
+}
+
+   #cta-button {
+  background-color: #5F7A61; /* The Sage Green from our palette */
+  color: #FFFDF5;
+  border-radius: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  transition: 0.3s;
+}
+
+#cta-button:hover {
+  background-color: #4A5F4B;
+  transform: translateY(-2px);
+}
+
    #home-photo {
-    height: 75vh;
+    height: 65vh;
     background-image: url(assets/aboveview.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -98,7 +239,7 @@
    #about-title {
     font-family: "Baskervville SC", serif;
     letter-spacing: 2px;
-    color: #6e5f51;
+    color: #8E443D;
    }
 
    #hide {
@@ -141,7 +282,7 @@
 
    #videogal-title {
     font-family: "Baskervville SC", serif;
-    color: #6e5f51;
+    color: #8E443D;
     letter-spacing: 3px;
     align-self: start;
    }
@@ -219,7 +360,7 @@
    }
 
    .contact-form {
-    color: white;
+    color: #8E443D;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -236,15 +377,19 @@
     width: 400px;
     border-radius: 20px;
     border: none;
+    background-color: transparent;
+    border: 1px, solid, #2C2C2C;
+
    }
 
    #contact-button {
-    background-color: white;
-    color: black;
+    background-color: #5F7A61;
+    color: #FFFDF5;
     border: none;
     border-radius: 10px;
     font-size: 1.5rem;
     margin-top: 30px;
+    font-family: "Bakersville SC", serif;
    }
 
    #contact-button:hover {
