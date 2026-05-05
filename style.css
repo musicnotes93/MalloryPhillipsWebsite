@@ -170,12 +170,13 @@
   background-image: url('assets/teachingviolin.jpg');
   background-size: cover;
   background-position: center;
+  padding-top: 60px;
 }
 
 .hero-glass {
   background: rgba(255, 253, 245, 0.8); /* 90% opaque Ivory */
   border: 1px solid #8E443D;
-  border-radius: 15px;
+
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -225,7 +226,7 @@
    #home-photo {
     height: 65vh;
     background-image: url(assets/aboveview.JPG);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
    }
 
